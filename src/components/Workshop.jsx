@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 export default function WorkshopCard({ setModalControl }) {
   return (
     // <div className="flex flex-col items-center justify-center min-h-screen bg-zinc-50 p-4">
-    <div className="w-full max-w-md bg-white p-4 shadow-lg rounded-xl">
-      <h1 className="text-lg sm:text-xl  text-center bg-[#3FBEC9] -mx-4 -mt-6 py-4 font-bold text-white mb-4 rounded-t-xl">
+    <div className="w-full max-w-md bg-white p-4 shadow-xl rounded-xl mx-3 ">
+      <h1 className="text-lg sm:text-xl  text-center bg-[#3FBEC9] -mx-4 -mt-6 py-4 font-bold text-white mb-4 rounded-t-xl shadow-lg">
         Nutrition Workshop hosted by IWD
       </h1>
       <div className="w-full h-48 bg-gray-300 flex items-center justify-center mb-4 md:mb-3 overflow-hidden rounded-lg">
@@ -22,7 +22,7 @@ export default function WorkshopCard({ setModalControl }) {
         />
       </div>
       <div className="text-center mb-4">
-        <div className="rounded-lg bg-yellow-50 py-2">
+        <div className="rounded-lg bg-yellow-50 py-2 border-2 shadow-lg">
           <h2 className="text-lg  font-semibold text-gray-800 underline">
             Workshop Topic:
           </h2>
@@ -32,7 +32,7 @@ export default function WorkshopCard({ setModalControl }) {
             going to the gym?
           </h2>
         </div>
-        <div className="flex flex-col items-start justify-between rounded-lg p-4 bg-white gap-y-3 mt-3 border">
+        <div className="flex flex-col items-start justify-between rounded-lg p-4 bg-white gap-y-3 mt-3 border-2 shadow-lg border-gray-600">
           <div className="flex items-center space-x-3">
             <div className="text-green-600 flex text-2xl w-7">
               <FiCalendar className="w-6 h-6" />
@@ -52,7 +52,7 @@ export default function WorkshopCard({ setModalControl }) {
             </div>
           </div>
         </div>
-        <p className="text-black-600 my-4 md:my-3 underline">
+        <p className="text-black-600 my-4 md:my-3">
           <span className="text-black text-lg font-bold">
             Registration fee:{" "}
           </span>
@@ -69,7 +69,7 @@ export default function WorkshopCard({ setModalControl }) {
         </button>
       </div>
       <div>
-        <p className="text-sm font-regular bg-orange-50 p-2 text-black text-center rounded-lg">
+        <p className="text-sm font-regular bg-orange-50 p-2 text-black text-center rounded-lg shadow-lg">
           <span className="font-bold">50 AED </span>fully redeemable upon
           enrolling in our online diet program.
         </p>

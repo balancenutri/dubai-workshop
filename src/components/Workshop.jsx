@@ -149,14 +149,14 @@ export default function WorkshopCard({ setModalControl }) {
       </div>
       <div className="text-center mb-2">
         <div className="rounded-lg bg-yellow-50 py-4 border-2 shadow-lg">
-          <p className="text-gray-800 font-inter text-[15px] font-medium px-4">
+          <p className="text-gray-800 font-inter text-[13px] font-medium px-4">
             <span className="text-gray-800 text-center font-inter text-base font-bold ">
               Meet Dietitian Khyati Rupani,
             </span>{" "}
             Ex-Chief Dietitian at Lilavati Hospital. She is an Award- Winning
             Dietitian who has lost 40kg herself.
           </p>
-          <p className="text-gray-800 font-inter text-base font-bold underline decoration-solid underline-offset-auto decoration-from-font">
+          <p className="text-gray-800 font-inter text-[13px] px-1 font-bold underline decoration-solid underline-offset-auto decoration-from-font">
             Trusted by 5,000+ clients in the UAE since 2014
           </p>
         </div>
@@ -182,7 +182,7 @@ export default function WorkshopCard({ setModalControl }) {
               </svg>
             </div>
             <div>
-              <p className="text-gray-800 font-inter text-lg font-bold">
+              <p className="text-gray-800 font-inter text-sm font-bold">
                 29th Jan, 10:30 am - 12:30 pm
               </p>
             </div>
@@ -216,7 +216,7 @@ export default function WorkshopCard({ setModalControl }) {
         </div>
         <div className="flex items-center gap-3 justify-between my-3">
           <p className="text-black-600 my-4 md:my-3">
-            <span className="text-gray-800 font-inter text-base font- md:text-xl font-medium">
+            <span className="text-gray-800 font-inter text-[15px] font- md:text-xl font-medium">
               Registration Fee:{" "}
             </span>
             <span className="text-red-500 font-inter text-base md:text-xl font-bold">
@@ -224,7 +224,7 @@ export default function WorkshopCard({ setModalControl }) {
             </span>
           </p>
           <button
-            className="bg-yellow-500 rounded-lg text-gray-800 font-inter text-lg px-3 py-2 font-bold"
+            className="bg-yellow-500 rounded-lg text-gray-800 font-inter text-[15px] px-3 py-2 font-bold"
             onClick={() => setModalControl(true)}
           >
             Register Now

@@ -104,13 +104,12 @@ const RazorpayPayment = ({ setModal }) => {
 
     try {
       const responses = await axios.post(api, data);
-      console.log("Form submitted successfully:", responses.data.data);
       const options = {
         key: key,
         amount: amount * 100,
         currency: currency,
         name: name,
-        description: "Payment for your Test",
+        description: "Payment for Dubai Workshop",
         handler: function (response) {
           console.log(response);
           navigate("/congrats", {

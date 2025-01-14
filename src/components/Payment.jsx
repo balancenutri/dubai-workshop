@@ -125,9 +125,6 @@ const RazorpayPayment = ({ setModal }) => {
           email: email,
           contact: `+${phoneCode}${phoneNumber}`,
         },
-        notes: {
-          address: "Test address",
-        },
         theme: {
           color: "#3399cc",
         },
